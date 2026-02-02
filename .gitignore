@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+myenv/
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Data & documents (keep folders, ignore contents)
+documents/*
+!documents/.gitkeep
+
+data/*
+!data/.gitkeep
+
+# OS / editor junk
+.DS_Store
+.idea/
+.vscode/

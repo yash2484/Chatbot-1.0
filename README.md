@@ -63,24 +63,24 @@ This project addresses that limitation by:
 git clone https://github.com/yash2484/Chatbot-1.0.git
 cd Chatbot-1.0
 
-2️⃣ Create and activate a virtual environment
+### 2️⃣ Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate        # Linux/Mac
 venv\Scripts\activate           # Windows
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Configure environment variables
+### 4️⃣ Configure environment variables
 
 Create a .env file in the root directory:
 
 OPENAI_API_KEY=your_api_key_here
 
-5️⃣ Run the application
+### 5️⃣ Run the application
 python app.py
 
-📌 Key Features
+## 📌 Key Features
 
 End-to-end RAG pipeline using LangChain
 
@@ -90,7 +90,7 @@ Modular and extensible architecture
 
 Production-style folder organization and Git hygiene
 
-📈 Learnings & Outcomes
+## 📈 Learnings & Outcomes
 
 Built a complete Retrieval-Augmented Generation pipeline
 
@@ -100,7 +100,7 @@ Designed a scalable GenAI system architecture
 
 Applied professional Git and project structuring practices
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Implement hybrid search (keyword + vector)
 
